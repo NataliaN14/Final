@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<lim version="5.6.4">
+    <config>
+        <recursos>Recursos</recursos>
+        <idioma>0</idioma>
+        <licencia></licencia>
+        <corfondo>80FFFF</corfondo>
+        <corbanda>008080</corbanda>
+        <cornavega>008080</cornavega>
+        <cormensaxes>000000</cormensaxes>
+        <cortexto>000000</cortexto>
+        <titulo>Partes del cuerpo</titulo>
+        <subtitulo>Conozco mi cuerpo</subtitulo>
+        <autor>Miss Natalia Navarro</autor>
+        <informe>1</informe>
+        <botonson>0</botonson>
+        <maximizar>0</maximizar>
+        <desordenar>0</desordenar>
+        <correcto son="" modo="1" >Excelente trabajo</correcto>
+        <incorrecto son="" modo="1" >Vuelve a intentarlo</incorrecto>
+    </config>
+    <libro>
+        <paxina id="1" >
+              <tipo>2</tipo>
+              <imaxe posx="0" posy="0">presentaci_on.png</imaxe>
+        </paxina>
+        <paxina id="2" >
+              <tipo>2</tipo>
+              <imaxe posx="0" posy="0">Presentaci_on.mp4</imaxe>
+              <texto posx="50" posy="50" ancho="200" largo="200"><![CDATA[
+<p align="left">
+<font color="#080000" face="Arial" size="12"></font></p>
+]]></texto>
+              <ctexto>000000</ctexto>
+              <chtml>1</chtml>
+        </paxina>
+        <paxina id="3" >
+              <tipo>3</tipo>
+              <cabeceira>Arma el rompecabeza y descubre la imágen </cabeceira>
+              <imaxe>Cuerpo_completo.png</imaxe>
+              <imfondo  trans="40">Cuerpo_completo.png</imfondo>
+              <filas>3</filas>
+              <columnas>3</columnas>
+              <reixa>1</reixa>
+            <forma>0</forma>
+        </paxina>
+        <paxina id="4" >
+              <tipo>39</tipo>
+              <cabeceira>Descubre las partes del cuerpo</cabeceira>
+              <modo>1</modo>
+            <parellas imaxe="Boca_letra.png" texto="">Boca_letra.png</parellas>
+              <parellas imaxe="Cabello_letra.png" texto="">Cabello_letra.png</parellas>
+              <parellas imaxe="Cabeza_letra.png" texto="">Cabeza_letra.png</parellas>
+              <parellas imaxe="Cuello_letra.png" texto="">Cuello_letra.png</parellas>
+              <parellas imaxe="Abdomen_letra.png" texto="">Abdomen_letra.png</parellas>
+              <parellas imaxe="Hombros_letra.png" texto="">Hombros_letra.png</parellas>
+              <cfondo>80FFFF</cfondo>
+              <ctapa>008080</ctapa>
+              <tempo>300</tempo>
+        </paxina>
+        <paxina id="5" >
+              <tipo>4</tipo>
+              <cabeceira>Busca en la sopa de letras las partes del cuerpo que hacen falta</cabeceira>
+              <modo>2</modo>
+              <sopa enun="Brazos_letra.png">brazos</sopa>
+              <sopa enun="Manos_letra.png">manos</sopa>
+              <sopa enun="Nariz_letra.png">nariz</sopa>
+              <sopa enun="Ojos_letra.png">ojos</sopa>
+              <sopa enun="Orejas_letra.png">orejas</sopa>
+              <sopa enun="Pie_letra.png">pie</sopa>
+              <sopa enun="Piernas_letra.png">piernas</sopa>
+              <sopa enun="Rodillas_letra.png">rodillas</sopa>
+              <enunciado>0</enunciado>
+              <colorea>1</colorea>
+              <cadro>0</cadro>
+        </paxina>
+        <paxina id="6" >
+              <tipo>24</tipo>
+              <cabeceira>Observa y selecciona unicamente las partes del cuerpo</cabeceira>
+              <etiqueta imaxe="Hombros_letra.png" texto="">1</etiqueta>
+              <etiqueta imaxe="Manos_letra.png" texto="">1</etiqueta>
+              <etiqueta imaxe="Payaso.png" texto="">0</etiqueta>
+              <etiqueta imaxe="Rodillas_letra.png" texto="">1</etiqueta>
+              <etiqueta imaxe="Tallo.png" texto="">0</etiqueta>
+              <etiqueta imaxe="Orejas_letra.png" texto="">1</etiqueta>
+              <cfondo>008080</cfondo>
+        </paxina>
+        <paxina id="7" >
+              <tipo>11</tipo>
+              <cabeceira>Lee las palabras y arrastralas donde corresponde</cabeceira>
+              <modo>3</modo>
+              <cousa nome="boca">Boca_letra.png</cousa>
+              <cousa nome="manos">Manos_letra.png</cousa>
+              <cousa nome="nariz">Nariz_letra.png</cousa>
+              <cousa nome="ojos">Ojos_letra.png</cousa>
+              <cousa nome="pie">Pie_letra.png</cousa>
+        </paxina>
+        <paxina id="8" >
+              <tipo>7</tipo>
+              <cabeceira>¿Cuántos tienes en tu cuerpo? Ubica las imágenes donde corresponde</cabeceira>
+              <caixa1>Tengo 1</caixa1>
+              <caixa2>Tengo 2</caixa2>
+              <mini caixa="1">Boca_letra.png</mini>
+              <mini caixa="2">Brazos_letra.png</mini>
+              <mini caixa="2">Ojos_letra.png</mini>
+              <mini caixa="1">Cabeza_letra.png</mini>
+              <mini caixa="1">Cuello_letra.png</mini>
+              <mini caixa="2">Orejas_letra.png</mini>
+              <cfondo>80FFFF</cfondo>
+        </paxina>
+        <paxina id="9" >
+              <tipo>7</tipo>
+              <cabeceira>¿Cuántos tienes en tu cuerpo? Ubica las imágenes donde corresponde</cabeceira>
+              <caixa1>Tengo 1</caixa1>
+              <caixa2>Tengo 2</caixa2>
+              <mini caixa="2">Hombros_letra.png</mini>
+              <mini caixa="2">Manos_letra.png</mini>
+              <mini caixa="1">Nariz_letra.png</mini>
+              <mini caixa="1">Cabello_letra.png</mini>
+              <mini caixa="1">Abdomen_letra.png</mini>
+              <mini caixa="2">Pie_letra.png</mini>
+              <cfondo>80FFFF</cfondo>
+        </paxina>
+        <paxina id="10" >
+              <tipo>7</tipo>
+              <cabeceira>¿Cuántos tienes en tu cuerpo? Ubica las imágenes donde corresponde</cabeceira>
+              <caixa1>Tengo 1</caixa1>
+              <caixa2>Tengo 2</caixa2>
+              <mini caixa="2">Piernas_letra.png</mini>
+              <mini caixa="2">Rodillas_letra.png</mini>
+              <cfondo>80FFFF</cfondo>
+        </paxina>
+        <paxina id="11" >
+              <tipo>20</tipo>
+              <cabeceira>Ubica las partes del cuerpo en el espacio correspondiente</cabeceira>
+              <imaxe>Partes_del_cuerpo.png</imaxe>
+              <modo>3</modo>
+              <etiqueta posx="142" posy="30">Cabello</etiqueta>
+              <etiqueta posx="40" posy="89">Nariz</etiqueta>
+              <etiqueta posx="254" posy="57">Cabeza</etiqueta>
+              <etiqueta posx="8" posy="155">Orejas</etiqueta>
+              <etiqueta posx="252" posy="123">Ojos</etiqueta>
+              <etiqueta posx="251" posy="172">Cuello</etiqueta>
+        </paxina>
+        <paxina id="12" >
+              <tipo>20</tipo>
+              <cabeceira>Continuamos. Ubica las partes del cuerpo en el espacio correspondiente</cabeceira>
+              <imaxe>Partes_del_cuerpo_2.png</imaxe>
+              <modo>3</modo>
+              <etiqueta posx="13" posy="192">Brazos</etiqueta>
+              <etiqueta posx="274" posy="206">Hombros</etiqueta>
+              <etiqueta posx="21" posy="265">Abdomen</etiqueta>
+              <etiqueta posx="277" posy="251">Manos</etiqueta>
+              <etiqueta posx="25" posy="308">Piernas</etiqueta>
+              <etiqueta posx="269" posy="293">Rodillas</etiqueta>
+        </paxina>
+        <paxina id="13" >
+              <tipo>20</tipo>
+              <cabeceira>Responde ¿Cuál es la partes del cuerpo que hace falta?</cabeceira>
+              <imaxe>Partes_del_cuerpo_3.png</imaxe>
+              <modo>2</modo>
+              <etiqueta posx="152" posy="344">Pies</etiqueta>
+        </paxina>
+        <paxina id="14" >
+              <tipo>2</tipo>
+              <imaxe posx="0" posy="0">Final.png</imaxe>
+        </paxina>
+    </libro>
+</lim>
